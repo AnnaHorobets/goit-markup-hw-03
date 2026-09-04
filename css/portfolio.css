@@ -1,4 +1,4 @@
-.portfolio-list {
+.portfolio-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11111;
@@ -29,7 +29,7 @@
 .portfolio-grid {
   display: flex;
   flex-wrap: wrap;
-  width: calc((100% -144px) / 3);
+  width: 100%;
   gap: 48px 24px;
 }
 .portfolio-info {
@@ -43,4 +43,12 @@
 }
 .portfolio {
   padding: 120px 0;
+}
+.portfolio > li {
+  width: calc((100% - 48px) / 3);
+}
+.portfolio img {
+  width: 100%;
+  height: auto;
+  display: block;
 }

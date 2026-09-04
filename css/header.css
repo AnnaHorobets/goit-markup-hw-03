@@ -17,6 +17,8 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  display: block;
+  padding: 24px 0;
 }
 .header-link:hover,
 .header-link:focus {
@@ -32,6 +34,9 @@
   color: #434455;
   font-style: normal;
 }
+.address-link {
+  padding: 24px 0;
+}
 .address-link:hover,
 .address-link:focus {
   color: #404bbf;
@@ -46,7 +51,6 @@
   justify-content: flex-start;
   flex-direction: row;
   gap: 40px;
-  padding: 24px 0;
 }
 .address-list {
   display: flex;
@@ -54,7 +58,6 @@
   justify-content: flex-start;
   flex-direction: row;
   gap: 40px;
-  padding: 24px 0;
 }
 .header nav {
   margin-right: auto;
