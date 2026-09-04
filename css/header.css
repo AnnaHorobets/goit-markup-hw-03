@@ -6,6 +6,7 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
+  margin-right: 76px;
 }
 .logo-2 {
   color: #4d5ae5;
@@ -22,7 +23,7 @@
   color: #404bbf;
 }
 .header-link:active {
-  background: #404bbf;
+  color: #404bbf;
 }
 
 .header-address {
@@ -33,7 +34,31 @@
 }
 .address-link:hover,
 .address-link:focus {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #404bbf;
+}
+.header .container {
+  display: flex;
+  align-items: center;
+}
+.header-menu {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 40px;
+  padding: 24px 0;
+}
+.address-list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 40px;
+  padding: 24px 0;
+}
+.header nav {
+  margin-right: auto;
+}
+.header {
+  border-bottom: 1px solid #e7e9fc;
 }

@@ -18,3 +18,29 @@
   letter-spacing: 0.02em;
   color: #434455;
 }
+
+.portfolio .container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 72px;
+}
+.portfolio-grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: calc((100% -144px) / 3);
+  gap: 48px 24px;
+}
+.portfolio-info {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+  padding: 32px 16px;
+  gap: 8px;
+}
+.portfolio {
+  padding: 120px 0;
+}
