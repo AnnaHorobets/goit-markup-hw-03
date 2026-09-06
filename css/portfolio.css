@@ -44,7 +44,7 @@
 .portfolio {
   padding: 120px 0;
 }
-.portfolio > li {
+.portfolio-grid > li {
   width: calc((100% - 48px) / 3);
 }
 .portfolio img {
